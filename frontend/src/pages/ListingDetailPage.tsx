@@ -81,7 +81,7 @@ const ListingDetailPage: React.FC = () => {
       {/* Main Content */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Section */}
-        <div className="md:col-span-2 flex flex-col gap-8">
+        <div className="md:col-span-2 flex flex-col gap-4 md:gap-8">
           {loading ? (
             <div className="flex flex-col gap-3">
               <Skeleton className="h-6 w-1/3" />
