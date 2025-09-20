@@ -1,10 +1,20 @@
-# Airstay (Cards-only)
+# Airstay
 
-Monorepo with frontend (React + TypeScript + Tailwind) and backend (Node + TypeScript + Express + MongoDB).
+A modern monorepo project featuring a **frontend** built with **React, TypeScript, and Tailwind CSS** and a **backend** powered by **Node.js, TypeScript, Express, and MongoDB**. This project demonstrates a responsive Airbnb-style listing interface with clean UI components.
 
-## Quick dev (uses docker-compose)
-- `docker-compose up --build` to start backend, frontend (nginx serving build), and mongo (dev).
-- Backend API: http://localhost:4000/api/v1
-- Frontend: http://localhost:3000
+## Live Demo
+Check out the live application here: [Airstay Live](https://airstay-xa4n.onrender.com/)
 
-This repo is a skeleton intended to be expanded with auth, uploads, and CI pipelines.
+## Features
+- **Frontend:** React + TypeScript + Tailwind CSS  
+- **Backend:** Node.js + Express + TypeScript + MongoDB  
+- **Responsive Design:** Optimized for desktop and mobile  
+- **Dockerized Development:** Run frontend, backend, and MongoDB with a single command  
+- **Scalable Architecture:** Monorepo setup ready for authentication, file uploads, and CI/CD pipelines  
+
+## Quick Start (Development)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/airstay.git
+cd airstay
